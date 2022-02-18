@@ -13,7 +13,7 @@ a{
 /* MAIN */
 main{
     background-color: #000;
-    height: 90vh;
+    height: 91vh;
     display: flex;
     position: relative;
     justify-content: center;
@@ -38,7 +38,7 @@ main{
 .container{
     background-color: #000;
     height: 90%;
-    flex-basis: 92%;
+    flex-basis: 91%;
     display: flex;
     overflow-y: auto;
 }
@@ -49,13 +49,13 @@ main{
     flex-wrap: wrap;
     justify-content: space-between;
     align-content: space-between;
+    row-gap: 2%;
 }
 
 .users-video div{
     display: flex;
-    flex-basis: calc(100% / 7 - 5px);
+    flex-basis: calc(100% / 7 - 0.3%);
     position: relative;
-    margin: 5px 0;
 }
 
 .users-video img{
@@ -75,7 +75,7 @@ main{
 
 footer{
     background-color: #222222;
-    height: 10vh;
+    height: 9vh;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -89,7 +89,7 @@ footer{
 
 .menu-footer-center{
     display: flex;
-    flex-basis: 35%;
+    flex-basis: 30%;
     justify-content: space-between;
 }
 
@@ -98,7 +98,7 @@ footer{
     display: flex;
     flex-basis: 6%;
     justify-content: center;
-    padding: 23px 0;
+    padding: 20px 0;
 }
 
 .menu-footer-right a{
@@ -131,10 +131,10 @@ footer{
 }
 
 .icons-footer a i:first-of-type{
-    font-size: 1.2em;
+    font-size: 1.1em;
 }
 
 .icons-footer span{
     padding-top: 5px;
-    font-size: 0.6em;
+    font-size: 0.5em;
 }
