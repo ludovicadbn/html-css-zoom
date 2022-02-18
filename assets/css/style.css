@@ -1,21 +1,23 @@
+/* GENERAL */
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
 }
 
+a{
+    text-decoration: none;
+}
+
+/* MAIN */
 main{
-    background-color: red;
+    background-color: #000;
     height: 90vh;
     display: flex;
     position: relative;
     justify-content: center;
     align-items: flex-end;
-}
-
-footer{
-    background-color: #222222;
-    height: 10vh;
 }
 
 .view{
@@ -37,4 +39,70 @@ footer{
     background-color: lightsalmon;
     height: 90%;
     flex-basis: 95%;
+}
+
+footer{
+    background-color: #222222;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu-footer-left{
+    display: flex;
+    justify-content: space-around;
+    flex-basis: 10%;
+}
+
+.menu-footer-center{
+    display: flex;
+    flex-basis: 35%;
+    justify-content: space-between;
+}
+
+.menu-footer-right{
+    background-color: #4e4e4e;
+    display: flex;
+    flex-basis: 10%;
+    justify-content: center;
+    padding: 23px 0;
+}
+
+.menu-footer-right a{
+    color: #c61f0b;
+    font-size: 0.6em;
+    font-weight: 700;
+}
+
+.arrow-up{
+    display: flex;
+    color: white;
+    font-size: 0.4em;
+    padding-left: 10px;
+}
+
+.fa-share-from-square{
+    color: #4bc800;
+}
+
+.icons-footer{
+    display: flex;
+    align-items: center;
+}
+
+.icons-footer a:first-of-type{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+}
+
+.icons-footer a i:first-of-type{
+    font-size: 1.2em;
+}
+
+.icons-footer span{
+    padding-top: 5px;
+    font-size: 0.6em;
 }
