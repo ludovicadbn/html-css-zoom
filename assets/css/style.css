@@ -36,9 +36,40 @@ main{
 }
 
 .container{
-    background-color: lightsalmon;
+    background-color: #000;
     height: 90%;
-    flex-basis: 95%;
+    flex-basis: 92%;
+    display: flex;
+    overflow-y: auto;
+}
+
+.users-video{
+    display: flex;
+    flex-basis: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+}
+
+.users-video div{
+    display: flex;
+    flex-basis: calc(100% / 7 - 5px);
+    position: relative;
+}
+
+.users-video img{
+    display: flex;
+    width: 100%;
+}
+
+.users-video span{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: #fff;
+    background-color: rgba(66, 66, 66, 0.7);
+    font-size: 0.6em;
+    padding: 3px;
 }
 
 footer{
@@ -64,7 +95,7 @@ footer{
 .menu-footer-right{
     background-color: #4e4e4e;
     display: flex;
-    flex-basis: 10%;
+    flex-basis: 6%;
     justify-content: center;
     padding: 23px 0;
 }
