@@ -3,3 +3,38 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+main{
+    background-color: red;
+    height: 90vh;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+footer{
+    background-color: #222222;
+    height: 10vh;
+}
+
+.view{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+
+.view span,
+.view .fa-maximize{
+    background-color: #4a4a4a;
+    padding: 3px;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 0.7em;
+}
+
+.container{
+    background-color: lightsalmon;
+    height: 90%;
+    flex-basis: 95%;
+}
