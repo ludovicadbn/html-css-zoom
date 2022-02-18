@@ -55,6 +55,7 @@ main{
     display: flex;
     flex-basis: calc(100% / 7 - 5px);
     position: relative;
+    margin: 5px 0;
 }
 
 .users-video img{
