@@ -48,9 +48,9 @@ main{
     display: flex;
     flex-basis: 100%;
     flex-wrap: wrap;
-    justify-content: space-between;
-    align-content: space-between;
-    row-gap: 2%;
+    justify-content: center;
+    align-content: center;
+    gap: 2% 1%;
 }
 
 .users-video div{
