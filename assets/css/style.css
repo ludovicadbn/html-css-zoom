@@ -55,7 +55,7 @@ main{
 
 .users-video div{
     display: flex;
-    flex-basis: calc(100% / 7 - 0.3%);
+    flex-basis: calc(100% / 7 - 1%);
     position: relative;
 }
 
