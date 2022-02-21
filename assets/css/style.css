@@ -49,18 +49,12 @@ main{
     flex-basis: 100%;
     flex-wrap: wrap;
     justify-content: center;
-    align-content: center;
     gap: 2% 1%;
 }
 
 .users-video div{
     display: flex;
     position: relative;
-}
-
-.users-video img{
-    display: flex;
-    width: 100%;
 }
 
 .users-video span{
